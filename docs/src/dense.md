@@ -48,7 +48,7 @@ This equation can be proven via a sumcheck !
 
 The output of the sumcheck is a proof and a new claim on both $\tilde{W}(r,...)$ and $\tilde{x}(...)$. The proof is only valid if the verifier can verify those claims are too!
 * Matrix claim: the matrix claim gets accumulated with our accumulation scheme setup at the beginning of the proving phase. At the end of the full flow, the accumulation procedure will output a single randomized claim from which the prover will produce a PCS opening proof. In short, we delay the verification of the claim to the end.
-* Input claim: this claims now becomes the *input* claim for the previous layer in the model ! Remember deeo prove proves backwards, from the last to the first layer.
+* Input claim: this claims now becomes the *input* claim for the previous layer in the model ! Remember deep prove proves backwards, from the last to the first layer.
 
 ### 2. Bias Addition Proof
 
